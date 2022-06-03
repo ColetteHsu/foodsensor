@@ -56,7 +56,7 @@ def distance(speed=34000):#計算超音波感測器距離
 if __name__ == "__main__":
     try:  
         while True:
-            for d in range(0,5,1): #每60筆匯入資庫庫
+            for d in range(0,60,1): #每60筆匯入資庫庫
                 dist = distance() #計算距離
                 currentTime = time.strftime("%Y-%m-%d %H:%M:%S") #目前偵測時間
                 record=""
